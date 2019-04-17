@@ -102,9 +102,10 @@ x {
 		%>
 	</table>
 		<jsp:include page="footer.jsp"></jsp:include>\
-		
-			<a href="http://localhost:8080/app/resources/addComment.jsp"><i class="fas fa-comment-plus"></i></a>
+		<div class=text-center>
+			<a href="http://localhost:8080/app/resources/addComment.jsp"><i class="far fa-comment-dots"></i></a>
 			<a href="http://localhost:8080/app/resources/searchComment.jsp">Search comments</a>
+			</div>
 	</div>
 </form>
 </body>

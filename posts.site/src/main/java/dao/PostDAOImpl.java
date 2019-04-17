@@ -30,10 +30,11 @@ public class PostDAOImpl implements PostDAO {
 		System.out.println("inside post dao");
 		boolean res = false;
 		try {
-			PreparedStatement pst = con.prepareStatement(" insert into post(title,body,uid)values(?,?,3)");
+			PreparedStatement pst = con.prepareStatement(" insert into post(title,body,uid)values(?,?,?)");
+		
 			pst.setString(1, post.getTitle());
 			pst.setString(2, post.getBody());
-
+			pst.setInt(3, post.getUid());
 			res = (pst.executeUpdate() == 1) ? true : false;
 		} catch (SQLException e) {
 

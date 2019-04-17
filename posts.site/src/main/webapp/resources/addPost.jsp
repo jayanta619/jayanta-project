@@ -98,6 +98,17 @@ text-align:center;
                     
 
 <form class="form-inline" >
+
+  <div class="form-group" style="color:white">
+    <label for="uid">Enter Uid</label>
+    <input type="text" id="uid" style="text-align: center" name="uid" class="form-control mx-sm-3">
+
+  </div>
+
+
+
+
+
   <div class="form-group" style="color:white">
     <label for="title">Enter Title</label>
     <input type="text" id="title" style="text-align: center" name="title" class="form-control mx-sm-3">
